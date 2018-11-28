@@ -1,0 +1,30 @@
+@using MidtermExam.Models
+@model MathOperation
+
+
+
+<title>Get your Calculation</title>
+
+<form action="Calculation" method="post">
+            <div class="form">
+<label for="Input">Enter the Number : </label> 
+<input type="text" class="form" id="Input" name="Input">
+            </div>
+    <div class="form">
+        <div class="form">
+<label for="option">Conversion Option:</label>
+<select class="form" id="option" name="option">
+    <option value="Add">Add</option>
+    <option value="Subtract">Subtract</option>
+    <option value="Multiply">Multiply</option>
+    <option value="Divide">Divide</option>
+    <option value="Power">Power</option>
+    <option value="Ceiling">Ceiling</option>
+    <option value="Floor">Floor</option>
+    <option value="Add">Add</option>
+</select>
+<div class="form">
+    <button type="submit" class="btn">Convert</button>
+    </div>
+     </form>
+
