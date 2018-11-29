@@ -64,7 +64,7 @@ using MidtermExam.Models;
             WriteLiteral("\r\n\r\n\r\n<title>Get your Calculation</title>\r\n\r\n");
             EndContext();
             BeginContext(94, 808, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5e3ff481d1e743a2bcb9b4630322a97c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c8cc898e9580499ab5164ebbf6d443eb", async() => {
                 BeginContext(135, 314, true);
                 WriteLiteral(@"
             <div class=""form"">
@@ -78,7 +78,7 @@ using MidtermExam.Models;
     ");
                 EndContext();
                 BeginContext(449, 32, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e0b17e6b59a940b3aa6af407a1e2662c", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "456f70689b6147b3a4eb669e5efd0f5f", async() => {
                     BeginContext(469, 3, true);
                     WriteLiteral("Add");
                     EndContext();
@@ -100,7 +100,7 @@ using MidtermExam.Models;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(487, 42, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2b2da819b8494150a342ff61ef3d96dd", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "74b8a4ee73134ab48fa65191d40204d8", async() => {
                     BeginContext(512, 8, true);
                     WriteLiteral("Subtract");
                     EndContext();
@@ -122,7 +122,7 @@ using MidtermExam.Models;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(535, 42, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "00a639226bff47c6a669b3115b921b61", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "88bc021f3df849eea39a07f5eaebe684", async() => {
                     BeginContext(560, 8, true);
                     WriteLiteral("Multiply");
                     EndContext();
@@ -144,7 +144,7 @@ using MidtermExam.Models;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(583, 38, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4e6b976f3f6d4b1da48915d15f677514", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d1f0014ae5e24fa28064e9419b01efec", async() => {
                     BeginContext(606, 6, true);
                     WriteLiteral("Divide");
                     EndContext();
@@ -166,7 +166,7 @@ using MidtermExam.Models;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(627, 36, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0a81fcbbc5eb48d9a7cbbc1d5a2600bf", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e8c6fcb05961416ab8a92f985eb5430f", async() => {
                     BeginContext(649, 5, true);
                     WriteLiteral("Power");
                     EndContext();
@@ -188,7 +188,7 @@ using MidtermExam.Models;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(669, 40, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5cbcff54da7a4aaa800d7de85d471742", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8c92edfa779447b4985c1cba93e56b53", async() => {
                     BeginContext(693, 7, true);
                     WriteLiteral("Ceiling");
                     EndContext();
@@ -210,7 +210,7 @@ using MidtermExam.Models;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(715, 36, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3d8ebb871b9644e1802f0833de60f29a", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "db5bd3e51305483ca1a8f804333c88ab", async() => {
                     BeginContext(737, 5, true);
                     WriteLiteral("Floor");
                     EndContext();
@@ -232,7 +232,7 @@ using MidtermExam.Models;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(757, 32, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9079f17155174f05bdcb3517ce017e64", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3b516abd2364433db146b77fca11a3d2", async() => {
                     BeginContext(777, 3, true);
                     WriteLiteral("Add");
                     EndContext();
