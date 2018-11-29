@@ -32,5 +32,5 @@ C:\CIDM3312\MidtermExam\obj\MCD\Debug\netcoreapp2.1\MidtermExam.pdb
 C:\CIDM3312\MidtermExam\obj\MCD\Debug\netcoreapp2.1\MidtermExam.csproj.CopyComplete
 C:\CIDM3312\MidtermExam\bin\MCD\Debug\netcoreapp2.1\MathLibrary.dll
 C:\CIDM3312\MidtermExam\bin\MCD\Debug\netcoreapp2.1\MathLibrary.pdb
-C:\CIDM3312\MidtermExam\obj\MCD\Debug\netcoreapp2.1\Razor\Views\Convert\DoCalculation.g.cshtml.cs
-C:\CIDM3312\MidtermExam\obj\MCD\Debug\netcoreapp2.1\Razor\Views\Convert\ShowCalculationResults.g.cshtml.cs
+C:\CIDM3312\MidtermExam\obj\MCD\Debug\netcoreapp2.1\Razor\Views\Math\DoCalculation.g.cshtml.cs
+C:\CIDM3312\MidtermExam\obj\MCD\Debug\netcoreapp2.1\Razor\Views\Math\ShowCalculationResults.g.cshtml.cs

@@ -1,0 +1,25 @@
+
+@model MathOperation
+
+
+<form asp-controller="Math" asp-action="ShowCalculationResults" method="POST">
+First Number:<br>
+<input type ="text" asp-for="@Model.LeftOperand"><br>
+
+Second Number:<br>
+<input type ="text" asp-for="@Model.RightOperand"><br>
+
+Conversion Type:<br>
+<select asp-for="@Model.Operator">
+    <option value = "Add">Add</option>
+    <option value = "Subtract">Subrtract</option>
+    <option value = "Multiply">Mutliply</option>
+    <option value = "Divide">Divide</option> 
+</select>
+<input type="submit" value= "Submit">
+
+       
+</form>    
+
+
+   
