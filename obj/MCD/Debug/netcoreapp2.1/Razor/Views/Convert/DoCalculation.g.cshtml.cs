@@ -73,12 +73,12 @@ using MidtermExam.Models;
             WriteLiteral("\r\n\r\n\r\n<title>Get your Calculation</title>\r\n\r\n\r\n    ");
             EndContext();
             BeginContext(75, 1296, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a4857abefd9944c385a17fee59e1eecd", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8f8f3841d6e5427d8dc4dec00b705668", async() => {
                 BeginContext(169, 101, true);
                 WriteLiteral("\r\n        <div class=\"form\">\r\n        <label class=\"label\" for=\"LeftOperand\"></label>  \r\n            ");
                 EndContext();
                 BeginContext(270, 127, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "f1c84fa471e448d6af2c20b282e204d6", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "07a95c08ab754eab8f93bb4bd782600f", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -108,7 +108,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 WriteLiteral("\r\n            <span class=\"placeholder\">Enter first number of your equation</span>    \r\n    </div>\r\n        <div class=\"form\">\r\n        <label class=\"label\" for=\"RightOperand\"></label>   \r\n            ");
                 EndContext();
                 BeginContext(598, 132, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "4a8be5a16bfb4ce5ab77e290ffb1b741", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "30493e52fa5442199fc7479d33603ac7", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -138,7 +138,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 WriteLiteral("\r\n            <span class=\"placeholder\">Enter second number of your calculation</span>  \r\n</div>  \r\n    <div class=\"form\">\r\n        <label class=\"label\" for=\"Operator\"></label>  \r\n            ");
                 EndContext();
                 BeginContext(922, 140, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "229aa127b18344c88ae2e9fc51c8e1ef", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "91e452faa995451d92fc13a47e7e1571", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
