@@ -10,34 +10,36 @@ using MathLibrary;
 namespace MidtermExam.Controllers
 {
     public class HomeController : Controller
-    {   [HttpGet]
+    {   
         public IActionResult Index()
         {
             return View();
         }
-        
-        [HttpPost]
-        public IActionResult ShowCalculationResults(MathOperation calculation)
+
+        public IActionResult About()
         {
-            switch (calculation.Operator)
-            {
-                case "Add":
-                    calculation.Result = MathLibrary.MyMathRoutines.Add(calculation.LeftOperand, calculation.RightOperand);
-                    break;
-                case "Subtract":
-                    calculation.Result = MathLibrary.MyMathRoutines.Subtract(calculation.LeftOperand, calculation.RightOperand);
-                    break;
-                case "Multiply":
-                    calculation.Result = MathLibrary.MyMathRoutines.Multiply(calculation.LeftOperand, calculation.RightOperand);
-                    break;
-                case "Divide":
-                    calculation.Result = MathLibrary.MyMathRoutines.Divide(calculation.LeftOperand, calculation.RightOperand);
-                    break;
-                    default:
-                    break;
-            }
-            return View(calculation);
+            ViewData["Message"] = "Your application description page.";
+
+            return View();
         }
+
+        public IActionResult Contact()
+        {
+            ViewData["Message"] = "Your contact page.";
+
+            return View();
+        }
+
+        public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+}
         
     }
 }

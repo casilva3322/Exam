@@ -14,22 +14,32 @@ namespace MidtermExam.Controllers
     public class MathController: Controller
     {   
         [HttpGet]
-        public IActionResult DoCalculation(decimal left, decimal right, decimal type)
+        public IActionResult DoCalculation()
         {
-	    ViewData["Left"] = left;
-        ViewData["Right"] = right;
-        ViewData["Type"] = type;// How will I covert the methods add..into 1 method????
-        ViewData["Get Result"] = $"{left} {type} {right} is: {MyMathRoutines.Add(left, right)}";
-	    return View();
+            return View();
         }
-
         
-
-        [HttpGet]
-        public IActionResult ShowCalculationResults()
+        [HttpPost]
+        public IActionResult ShowCalculationResults(MathOperation calculation)
         {
-                return View();
+            switch (calculation.Operator)
+            {
+                case "Add":
+                    calculation.Result = MathLibrary.MyMathRoutines.Add(calculation.LeftOperand, calculation.RightOperand);
+                    break;
+                case "Subtract":
+                    calculation.Result = MathLibrary.MyMathRoutines.Subtract(calculation.LeftOperand, calculation.RightOperand);
+                    break;
+                case "Multiply":
+                    calculation.Result = MathLibrary.MyMathRoutines.Multiply(calculation.LeftOperand, calculation.RightOperand);
+                    break;
+                case "Divide":
+                    calculation.Result = MathLibrary.MyMathRoutines.Divide(calculation.LeftOperand, calculation.RightOperand);
+                    break;
+                    default:
+                    break;
+            }
+            return View(calculation);
         }
-
     }
 }
